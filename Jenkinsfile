@@ -18,10 +18,10 @@ pipeline{
       }
     }
     
-    stage('4CodeQuality'){
+    stage('sonarscanar'){
       steps{
-        sh "echo 'Perfoming CodeQualityAnalysis' "
-        sh "mvn sonar:sonar"
+        sh 'sh "echo \'Perfoming CodeQualityAnalysis\' "'
+        sh 'sh "mvn sonar:sonar"'
       }
     }
     stage('5uploadNexus'){
