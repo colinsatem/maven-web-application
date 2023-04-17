@@ -9,10 +9,16 @@
 </head>
 </head>
 <body>
+<<<<<<< HEAD
 <h1 align="center">Welcome to Atem's Web application Project30 automation.</h1>
 <h1 align="center">We are developing and supporting quality Software Solutions to millions of clients globally.
 	           We are raising millionaires in IT automation.
 	We offer Training for DevOps with Linux and Cloud equipping IT Engineers for best performance.</h1>
+=======
+<h1 align="center">Welcome to Atem Software Solutions, Virginia, USA Office.</h1>
+<h1 align="center">We are developing and supporting quality  Software Solutions to millions of clients.
+	We offer  Training for DevOps with Linux and Cloud equipping IT Engineers for best performance.</h1>
+>>>>>>> b75a410e8b35365ac1ef1530b0b0716627fe654f
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
