@@ -5,11 +5,8 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1</version>
-=======
 	
 	<version>0.0.2-SNAPSHOT</version> 
->>>>>>> 65ec5e2fffb917fbec2bd4216297c40e513b66b4
 	
 	<name>maven-web-application</name>
 
@@ -87,12 +84,12 @@
 		
 		<!-- provided dependencies -->
 
-		<!--<dependency>
+		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
-		</dependency>	-->
+		</dependency>	
 	</dependencies>
 	<distributionManagement>
 	    <repository>
