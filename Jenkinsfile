@@ -4,7 +4,7 @@ pipeline{
     maven "maven3.6.0"
   }  
   stages {
-    stage('1GetCode'){
+    stage('2GetCode'){
       steps{
         sh "echo 'cloning the latest application version' "
         git branch: 'master', credentialsId: 'gitHubCredentials', url: 'https://github.com/colinsatem/maven-web-application.git'
