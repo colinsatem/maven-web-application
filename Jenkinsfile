@@ -20,7 +20,7 @@ pipeline{
     
     stage('sonarscanar'){
       steps{
-        sh 'sh "echo \'Perfoming CodeQualityAnalysis\' "'
+        //sh 'sh "echo \'Perfoming CodeQualityAnalysis\' "'
         sh 'sh "mvn sonar:sonar"'
       }
     }
