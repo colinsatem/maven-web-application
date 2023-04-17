@@ -4,7 +4,7 @@ pipeline{
     maven "maven3.6.0"
   }  
   stages {
-    stage('2GetCode'){
+    stage('3GetCode'){
       steps{
         sh "echo 'cloning the latest application version' "
         git branch: 'master', credentialsId: 'gitHubCredentials', url: 'https://github.com/colinsatem/maven-web-application.git'
@@ -20,8 +20,8 @@ pipeline{
     
     stage('sonarscanar'){
       steps{
-        sh 'sh "echo \'Perfoming CodeQualityAnalysis\' "'
-        sh 'sh "mvn sonar:sonar"'
+        //sh 'sh "echo \'Perfoming CodeQualityAnalysis\' "'
+        sh "mvn sonar:sonar"
       }
     }
     stage('5uploadNexus'){
