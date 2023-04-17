@@ -21,7 +21,7 @@ pipeline{
     stage('sonarscanar'){
       steps{
         //sh 'sh "echo \'Perfoming CodeQualityAnalysis\' "'
-        sh 'sh "mvn sonar:sonar"'
+        sh "mvn sonar:sonar"
       }
     }
     stage('5uploadNexus'){
